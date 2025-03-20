@@ -1,0 +1,9 @@
+19/03/2025 23:30:33 Proxy server started on 26.44.67.239:9002/ProxyServer
+19/03/2025 23:30:33 Proxy server url sent to location server: 26.44.67.239:3000/LocationServer
+19/03/2025 23:30:33 Received proxy server addresses from location server: [26.44.67.239:9000/ProxyServer, 26.44.67.239:9001/ProxyServer]
+19/03/2025 23:30:34 Connected to application server at 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:31:13 26.44.67.239 -> proxy requesting data from cache: 531
+19/03/2025 23:31:13 26.44.67.239 <- not found in cache
+19/03/2025 23:31:33 26.44.67.239 -> proxy edit: { 531 | Os 531 mudou | Descrição da os 531 | 19/03/2025-23:31:33 }
+19/03/2025 23:31:48 26.44.67.239 -> proxy remove: { 531 | Os 531 mudou | Descrição da os 531 | 19/03/2025-23:31:33 }
+19/03/2025 23:33:19 26.44.67.239 -> proxy remove: { 63 | Ordem de Serviço 63 | Descrição da Ordem de Serviço 63 | 19/03/2025-20:46:34 }

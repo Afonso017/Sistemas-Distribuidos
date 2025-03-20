@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<FlowPane xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cacheeviction.distributed.client.PrimaryController">
+   <HBox alignment="TOP_RIGHT">
+      <TabPane fx:id="tabPane" maxHeight="480.0" maxWidth="640.0" tabClosingPolicy="UNAVAILABLE">
+         <Tab text="Cadastrar">
+            <VBox alignment="CENTER" fillWidth="false" minHeight="446.0" minWidth="640.0" prefHeight="446.0" prefWidth="640.0" spacing="15.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
+               </padding>
+               <AnchorPane prefHeight="43.0" prefWidth="600.0" VBox.vgrow="NEVER">
+                  <VBox.margin>
+                     <Insets bottom="30.0" />
+                  </VBox.margin>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="600.0" text="Cadastrar Ordem de Serviço" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </AnchorPane>
+               <VBox alignment="CENTER" fillWidth="false" prefHeight="88.0" prefWidth="319.0" spacing="10.0">
+                  <HBox fillHeight="false" prefHeight="25.0" prefWidth="319.0" spacing="5.0">
+                     <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="71.0" text="ID:" textAlignment="CENTER" HBox.hgrow="ALWAYS" />
+                     <TextField fx:id="idFld" onAction="#registerSO" prefHeight="25.0" prefWidth="278.0" />
+                  </HBox>
+                  <HBox fillHeight="false" prefHeight="25.0" prefWidth="319.0" spacing="5.0">
+                     <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="71.0" text="Nome:" textAlignment="CENTER" HBox.hgrow="ALWAYS" />
+                     <TextField fx:id="nameFld" onAction="#registerSO" prefHeight="25.0" prefWidth="278.0" />
+                  </HBox>
+                  <HBox fillHeight="false" prefHeight="25.0" prefWidth="320.0">
+                     <Label prefHeight="28.0" prefWidth="63.0" text="Descrição:" HBox.hgrow="ALWAYS" />
+                     <TextField fx:id="descFld" onAction="#registerSO" prefHeight="25.0" prefWidth="266.0" />
+                  </HBox>
+               </VBox>
+               <HBox spacing="20.0">
+                  <Button onAction="#registerSO" prefHeight="27.0" prefWidth="80.0" text="Cadastrar" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Calibri" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="fillDatabaseBtn" onAction="#fillDatabase" prefHeight="27.0" prefWidth="80.0" text="Preencher" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Calibri" size="14.0" />
+                     </font>
+                  </Button>
+               </HBox>
+            </VBox>
+         </Tab>
+         <Tab text="Listar">
+            <AnchorPane>
+               <ListView fx:id="listView" layoutX="8.0" layoutY="67.0" prefHeight="405.0" prefWidth="625.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="67.0" />
+               <ImageView disable="true" fitHeight="25.0" fitWidth="27.0" layoutX="14.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@magnifying_glass.png" />
+               </ImageView>
+               <TextField fx:id="searchFld" layoutX="45.0" layoutY="30.0" onAction="#search" promptText="Buscar" />
+               <Label fx:id="qtd" layoutX="203.0" layoutY="34.0" text="Registros: " />
+               <Label layoutX="258.0" layoutY="6.0" text="Clique com o botão direito do mouse para editar/excluir um elemento" />
+               <Button fx:id="fillCacheBtn" layoutX="523.0" layoutY="30.0" mnemonicParsing="false" onAction="#fillCache" text="Preencher cache" />
+            </AnchorPane>
+         </Tab>
+      </TabPane>
+   </HBox>
+</FlowPane>

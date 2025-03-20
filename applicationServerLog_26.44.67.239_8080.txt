@@ -1,0 +1,36 @@
+19/03/2025 23:11:37 Application Server started on 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:11:37 Sent address to location server: 26.44.67.239:3000/LocationServer
+19/03/2025 23:11:37 Database loaded from backup_26.44.67.239_8080.txt
+19/03/2025 23:13:19 admin:26.44.67.239 -> search: 530
+19/03/2025 23:13:19 admin:26.44.67.239 <- search: { 530 | Ordem de Serviço 530 | Descrição da Ordem de Serviço 530 | 19/03/2025-20:46:34 }
+19/03/2025 23:14:24 user1:26.44.67.239 -> search: 11
+19/03/2025 23:14:24 user1:26.44.67.239 <- search: { 11 | Ordem de Serviço 11 | Descrição da Ordem de Serviço 11 | 19/03/2025-20:46:34 }
+19/03/2025 23:16:49 admin:26.44.67.239 -> edit: { 11 | mudou ordem 11 | Descrição da Ordem de Serviço 11 | 19/03/2025-23:16:49 }
+19/03/2025 23:16:49 admin:26.44.67.239 <- edit: success
+
+19/03/2025 23:19:31 Application Server started on 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:19:31 Sent address to location server: 26.44.67.239:3000/LocationServer
+19/03/2025 23:19:32 Database loaded from backup_26.44.67.239_8080.txt
+19/03/2025 23:20:51 user1:26.44.67.239 -> search: 11
+19/03/2025 23:20:51 user1:26.44.67.239 <- search: { 11 | mudou ordem 11 | Descrição da Ordem de Serviço 11 | 19/03/2025-23:16:49 }
+
+19/03/2025 23:26:07 Application Server started on 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:26:07 Sent address to location server: 26.44.67.239:3000/LocationServer
+19/03/2025 23:26:08 Database loaded from backup_26.44.67.239_8080.txt
+19/03/2025 23:27:00 user1:26.44.67.239 -> search: 530
+19/03/2025 23:27:00 user1:26.44.67.239 <- search: { 530 | Ordem de Serviço 530 | Descrição da Ordem de Serviço 530 | 19/03/2025-20:46:34 }
+19/03/2025 23:27:22 admin:26.44.67.239 -> edit: { 530 | teste | Descrição da Ordem de Serviço 530 | 19/03/2025-23:27:22 }
+19/03/2025 23:27:22 admin:26.44.67.239 <- edit: success
+
+19/03/2025 23:30:23 Application Server started on 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:30:23 Sent address to location server: 26.44.67.239:3000/LocationServer
+19/03/2025 23:30:23 Database loaded from backup_26.44.67.239_8080.txt
+19/03/2025 23:31:13 user1:26.44.67.239 -> search: 531
+19/03/2025 23:31:13 user1:26.44.67.239 <- search: { 531 | Os 531 | Descrição da os 531 | 19/03/2025-20:49:27 }
+19/03/2025 23:31:33 admin:26.44.67.239 -> edit: { 531 | Os 531 mudou | Descrição da os 531 | 19/03/2025-23:31:33 }
+19/03/2025 23:31:33 admin:26.44.67.239 <- edit: success
+19/03/2025 23:31:48 admin:26.44.67.239 -> remove: { 531 | Os 531 mudou | Descrição da os 531 | 19/03/2025-23:31:33 }
+19/03/2025 23:31:48 admin:26.44.67.239 <- remove: success
+19/03/2025 23:32:21 Backups received from location server: [26.44.67.239:8081/ApplicationServer]
+19/03/2025 23:33:19 admin:26.44.67.239 -> remove: { 63 | Ordem de Serviço 63 | Descrição da Ordem de Serviço 63 | 19/03/2025-20:46:34 }
+19/03/2025 23:33:19 admin:26.44.67.239 <- remove: success

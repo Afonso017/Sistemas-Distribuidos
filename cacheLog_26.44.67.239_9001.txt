@@ -1,0 +1,33 @@
+19/03/2025 23:31:13 Elemento com chave 531 não encontrado na cache.
+19/03/2025 23:31:13 Cache hits = 0
+19/03/2025 23:31:13 Cache misses = 1
+
+19/03/2025 23:31:13 Elemento { 531 | Os 531 | Descrição da os 531 | 19/03/2025-20:49:27 } adicionado à cache com prioridade 0.
+19/03/2025 23:31:13 Cache hits = 0
+19/03/2025 23:31:13 Cache misses = 1
+
+19/03/2025 23:31:13 Cache:
+[1] { 531 | Os 531 | Descrição da os 531 | 19/03/2025-20:49:27 } (Prioridade: 0)
+
+19/03/2025 23:31:33 Elemento com chave 531 encontrado na cache.
+19/03/2025 23:31:33 Cache hits = 1
+19/03/2025 23:31:33 Cache misses = 1
+
+19/03/2025 23:31:33 Cache:
+[1] { 531 | Os 531 | Descrição da os 531 | 19/03/2025-20:49:27 } (Prioridade: 0)
+
+19/03/2025 23:31:33 Prioridade do elemento { 531 | Os 531 mudou | Descrição da os 531 | 19/03/2025-23:31:33 } aumentada para 1.
+19/03/2025 23:31:33 Cache hits = 1
+19/03/2025 23:31:33 Cache misses = 1
+
+19/03/2025 23:31:33 Cache:
+[1] { 531 | Os 531 mudou | Descrição da os 531 | 19/03/2025-23:31:33 } (Prioridade: 1)
+
+19/03/2025 23:31:48 Elemento { 531 | Os 531 mudou | Descrição da os 531 | 19/03/2025-23:31:33 } removido da cache.
+19/03/2025 23:31:48 Cache hits = 1
+19/03/2025 23:31:48 Cache misses = 1
+
+19/03/2025 23:33:19 Elemento { 63 | Ordem de Serviço 63 | Descrição da Ordem de Serviço 63 | 19/03/2025-20:46:34 } não encontrado na cache para remoção.
+19/03/2025 23:33:19 Cache hits = 1
+19/03/2025 23:33:19 Cache misses = 1
+

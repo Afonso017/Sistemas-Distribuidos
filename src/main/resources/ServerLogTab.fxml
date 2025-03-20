@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane fx:id="tabPane" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+    <Tab closable="false" text="Server Log">
+    </Tab>
+    <Tab closable="false" text="Server Log">
+        <AnchorPane>
+            <TextArea fx:id="textLog" layoutX="6.0" layoutY="62.0" prefHeight="381.0" prefWidth="627.0" />
+            <ImageView disable="true" fitHeight="25.0" fitWidth="27.0" layoutX="14.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@magnifying_glass.png" />
+            </ImageView>
+            <TextField fx:id="searchLogFld" layoutX="45.0" layoutY="30.0" promptText="Buscar" />
+        </AnchorPane>
+    </Tab>
+</TabPane>

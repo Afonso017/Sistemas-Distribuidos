@@ -1,0 +1,97 @@
+19/03/2025 23:11:31 Location Server started on 26.44.67.239:3000/LocationServer
+19/03/2025 23:11:37 Primary application added: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:11:41 Adding proxy 26.44.67.239:9000/ProxyServer
+19/03/2025 23:11:41 Sending [] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:11:41 Proxies: [26.44.67.239:9000/ProxyServer 0]
+19/03/2025 23:11:41 26.44.67.239:9000/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:11:45 Adding proxy 26.44.67.239:9001/ProxyServer
+19/03/2025 23:11:45 Sending [26.44.67.239:9001/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:11:45 Sending [26.44.67.239:9000/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:11:45 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0]
+19/03/2025 23:11:45 26.44.67.239:9001/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:11:49 Adding proxy 26.44.67.239:9002/ProxyServer
+19/03/2025 23:11:49 Sending [26.44.67.239:9001/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:11:49 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:11:49 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9001/ProxyServer] to 26.44.67.239:9002/ProxyServer
+19/03/2025 23:11:49 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9002/ProxyServer 0]
+19/03/2025 23:11:49 26.44.67.239:9002/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:11:53 Client 26.44.67.239 requested proxy: 26.44.67.239:9000/ProxyServer
+19/03/2025 23:11:53 Proxies: [26.44.67.239:9002/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1]
+19/03/2025 23:12:05 Client 26.44.67.239 requested proxy: 26.44.67.239:9002/ProxyServer
+19/03/2025 23:12:05 Proxies: [26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9002/ProxyServer 1]
+19/03/2025 23:12:18 Client 26.44.67.239 requested proxy: 26.44.67.239:9001/ProxyServer
+19/03/2025 23:12:18 Proxies: [26.44.67.239:9002/ProxyServer 1, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9001/ProxyServer 1]
+
+19/03/2025 23:19:25 Location Server started on 26.44.67.239:3000/LocationServer
+19/03/2025 23:19:32 Primary application added: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:19:35 Adding proxy 26.44.67.239:9000/ProxyServer
+19/03/2025 23:19:35 Sending [] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:19:35 Proxies: [26.44.67.239:9000/ProxyServer 0]
+19/03/2025 23:19:35 26.44.67.239:9000/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:19:39 Adding proxy 26.44.67.239:9001/ProxyServer
+19/03/2025 23:19:39 Sending [26.44.67.239:9001/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:19:39 Sending [26.44.67.239:9000/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:19:39 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0]
+19/03/2025 23:19:39 26.44.67.239:9001/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:19:43 Adding proxy 26.44.67.239:9002/ProxyServer
+19/03/2025 23:19:43 Sending [26.44.67.239:9001/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:19:43 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:19:43 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9001/ProxyServer] to 26.44.67.239:9002/ProxyServer
+19/03/2025 23:19:43 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9002/ProxyServer 0]
+19/03/2025 23:19:43 26.44.67.239:9002/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:19:58 Client 26.44.67.239 requested proxy: 26.44.67.239:9000/ProxyServer
+19/03/2025 23:19:58 Proxies: [26.44.67.239:9002/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1]
+19/03/2025 23:20:05 Client 26.44.67.239 requested proxy: 26.44.67.239:9002/ProxyServer
+19/03/2025 23:20:05 Proxies: [26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9002/ProxyServer 1]
+19/03/2025 23:20:14 Client 26.44.67.239 requested proxy: 26.44.67.239:9001/ProxyServer
+19/03/2025 23:20:14 Proxies: [26.44.67.239:9002/ProxyServer 1, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9001/ProxyServer 1]
+
+19/03/2025 23:26:01 Location Server started on 26.44.67.239:3000/LocationServer
+19/03/2025 23:26:07 Primary application added: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:26:09 Adding proxy 26.44.67.239:9000/ProxyServer
+19/03/2025 23:26:09 Sending [] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:26:09 Proxies: [26.44.67.239:9000/ProxyServer 0]
+19/03/2025 23:26:09 26.44.67.239:9000/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:26:13 Adding proxy 26.44.67.239:9001/ProxyServer
+19/03/2025 23:26:13 Sending [26.44.67.239:9001/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:26:13 Sending [26.44.67.239:9000/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:26:13 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0]
+19/03/2025 23:26:13 26.44.67.239:9001/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:26:17 Adding proxy 26.44.67.239:9002/ProxyServer
+19/03/2025 23:26:17 Sending [26.44.67.239:9001/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:26:17 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:26:17 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9001/ProxyServer] to 26.44.67.239:9002/ProxyServer
+19/03/2025 23:26:17 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9002/ProxyServer 0]
+19/03/2025 23:26:17 26.44.67.239:9002/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:26:21 Client 26.44.67.239 requested proxy: 26.44.67.239:9000/ProxyServer
+19/03/2025 23:26:21 Proxies: [26.44.67.239:9002/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1]
+19/03/2025 23:26:26 Client 26.44.67.239 requested proxy: 26.44.67.239:9002/ProxyServer
+19/03/2025 23:26:26 Proxies: [26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9002/ProxyServer 1]
+19/03/2025 23:26:35 Client 26.44.67.239 requested proxy: 26.44.67.239:9001/ProxyServer
+19/03/2025 23:26:35 Proxies: [26.44.67.239:9002/ProxyServer 1, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9001/ProxyServer 1]
+
+19/03/2025 23:30:17 Location Server started on 26.44.67.239:3000/LocationServer
+19/03/2025 23:30:23 Primary application added: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:30:25 Adding proxy 26.44.67.239:9000/ProxyServer
+19/03/2025 23:30:25 Sending [] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:30:25 Proxies: [26.44.67.239:9000/ProxyServer 0]
+19/03/2025 23:30:25 26.44.67.239:9000/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:30:30 Adding proxy 26.44.67.239:9001/ProxyServer
+19/03/2025 23:30:30 Sending [26.44.67.239:9001/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:30:30 Sending [26.44.67.239:9000/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:30:30 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0]
+19/03/2025 23:30:30 26.44.67.239:9001/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:30:33 Adding proxy 26.44.67.239:9002/ProxyServer
+19/03/2025 23:30:33 Sending [26.44.67.239:9001/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9000/ProxyServer
+19/03/2025 23:30:33 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9002/ProxyServer] to 26.44.67.239:9001/ProxyServer
+19/03/2025 23:30:33 Sending [26.44.67.239:9000/ProxyServer, 26.44.67.239:9001/ProxyServer] to 26.44.67.239:9002/ProxyServer
+19/03/2025 23:30:33 Proxies: [26.44.67.239:9000/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9002/ProxyServer 0]
+19/03/2025 23:30:33 26.44.67.239:9002/ProxyServer requested application: 26.44.67.239:8080/ApplicationServer
+19/03/2025 23:30:38 Client 26.44.67.239 requested proxy: 26.44.67.239:9000/ProxyServer
+19/03/2025 23:30:38 Proxies: [26.44.67.239:9002/ProxyServer 0, 26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1]
+19/03/2025 23:30:43 Client 26.44.67.239 requested proxy: 26.44.67.239:9002/ProxyServer
+19/03/2025 23:30:43 Proxies: [26.44.67.239:9001/ProxyServer 0, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9002/ProxyServer 1]
+19/03/2025 23:30:49 Client 26.44.67.239 requested proxy: 26.44.67.239:9001/ProxyServer
+19/03/2025 23:30:49 Proxies: [26.44.67.239:9002/ProxyServer 1, 26.44.67.239:9000/ProxyServer 1, 26.44.67.239:9001/ProxyServer 1]
+19/03/2025 23:32:20 Secondary application added: 26.44.67.239:8081/ApplicationServer
+19/03/2025 23:32:21 Backup servers sent to 26.44.67.239:8080/ApplicationServer: [26.44.67.239:8081/ApplicationServer]

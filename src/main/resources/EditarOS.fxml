@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cacheeviction.distributed.client.EditSOController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0"/>
+   </padding>
+   <AnchorPane prefHeight="43.0" prefWidth="600.0" VBox.vgrow="NEVER">
+      <VBox.margin>
+         <Insets bottom="30.0"/>
+      </VBox.margin>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="600.0"
+             text="Editar Ordem de Serviço" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0"
+             AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="24.0"/>
+         </font>
+      </Label>
+   </AnchorPane>
+   <VBox alignment="CENTER" fillWidth="false" prefHeight="88.0" prefWidth="319.0" spacing="10.0">
+      <HBox fillHeight="false" prefHeight="25.0" prefWidth="319.0" spacing="5.0">
+         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="71.0" text="Nome:"
+                textAlignment="CENTER" HBox.hgrow="ALWAYS"/>
+         <TextField fx:id="nameFld" prefHeight="25.0" prefWidth="278.0"/>
+      </HBox>
+      <HBox fillHeight="false" prefHeight="25.0" prefWidth="320.0">
+         <Label prefHeight="28.0" prefWidth="63.0" text="Descrição:" HBox.hgrow="ALWAYS"/>
+         <TextField fx:id="descFld" prefHeight="25.0" prefWidth="266.0"/>
+      </HBox>
+   </VBox>
+   <HBox alignment="CENTER" fillHeight="false" prefHeight="25.0" prefWidth="266.0" spacing="20.0">
+      <VBox.margin>
+         <Insets left="50.0"/>
+      </VBox.margin>
+      <Button fx:id="editBtn" onAction="#editSO" prefHeight="27.0" prefWidth="80.0" text="Editar"
+              textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Calibri" size="14.0"/>
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" onAction="#cancel" prefHeight="27.0" prefWidth="82.0" text="Cancelar"
+              textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Calibri" size="14.0"/>
+         </font>
+      </Button>
+   </HBox>
+</VBox>

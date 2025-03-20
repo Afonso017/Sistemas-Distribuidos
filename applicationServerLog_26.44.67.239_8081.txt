@@ -1,0 +1,4 @@
+19/03/2025 23:32:20 Application Server started on 26.44.67.239:8081/ApplicationServer
+19/03/2025 23:32:20 Sent address to location server: 26.44.67.239:3000/LocationServer
+19/03/2025 23:32:21 Received database from location server
+19/03/2025 23:33:19 Backup -> remove: { 63 | Ordem de Serviço 63 | Descrição da Ordem de Serviço 63 | 19/03/2025-20:46:34 }
